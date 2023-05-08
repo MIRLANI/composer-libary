@@ -4,15 +4,54 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9a7def180849bc78e18b87f9d2606f37",
-    "packages": [],
+    "content-hash": "6e9bc88aa3bf8e02a7123539879924ec",
+    "packages": [
+        {
+            "name": "lani/belajar",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MIRLANI/composer-libary.git",
+                "reference": "0ddff9784b3328161aa680a6d4f70bd0045aed39"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MIRLANI/composer-libary/zipball/0ddff9784b3328161aa680a6d4f70bd0045aed39",
+                "reference": "0ddff9784b3328161aa680a6d4f70bd0045aed39",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Muhammadmirlani\\ComposerLibary\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Mirlani",
+                    "email": "laniwambuliga@gmail.com"
+                }
+            ],
+            "description": "composer libary",
+            "support": {
+                "source": "https://github.com/MIRLANI/composer-libary/tree/1.0.0",
+                "issues": "https://github.com/MIRLANI/composer-libary/issues"
+            },
+            "time": "2023-05-08T02:08:26+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=8.0"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
 }
