@@ -1,0 +1,19 @@
+{
+    "name": "muhammadmirlani/composer-libary",
+    "description": "composer libary",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Muhammadmirlani\\ComposerLibary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mirlani",
+            "email": "laniwambuliga@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
